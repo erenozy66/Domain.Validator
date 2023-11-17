@@ -13,8 +13,10 @@
     <h1 class="title">Domain Validator</h1>
     <p class="paragraph">Check the availability of a domain.  </p>
     <div class="div1">
-    <input type="text" class="inputlength">
+        <form id="formresult">
+    <input type="text" class="inputlength" id="domainname">
     <input type="submit" class="submit">
+</form>
     <br>
     <br>
     </div>
@@ -37,10 +39,23 @@
             <td>Status:</td>
             <td>DOMAIN STATUS</td>
             </tr>
+            <tr>
+                <td>Expires:</td>
+                <td>EXPIRE DATE</td>
+                </tr>
+                <tr>
+                    <td>Last updated:</td>
+                    <td>UPDATED DATE</td>
+                    </tr>
+                <tr>
+                    <td>Registered by:</td>
+                    <td>REGISTERED BY</td>
+                    </tr>
         </table>
     </div>
     <div class="footer">
         <footer>Made by Eren & Renier</footer>
     </div>
+    <script src="domain.js"></script>
 </body>
 </html>
