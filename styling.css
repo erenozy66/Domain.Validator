@@ -1,6 +1,7 @@
 body {
     background-color: black;
     font-family: 'Archivo', sans-serif;
+   
 }
 
 .title {
@@ -18,3 +19,55 @@ body {
 .div1 {
     text-align: center;
 }
+
+.availability {
+    color: aliceblue;
+}
+
+.div2 {
+    text-align: center;
+}
+
+.detail {
+    color: aliceblue;
+   
+        
+        
+}
+
+.submit {
+    background-color: #5271EF;
+    color: aliceblue;
+}
+
+.table {
+    color: aliceblue;
+}
+
+table{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #7EA8F8;
+    border-style: solid;
+    color: #000000;
+  }
+  
+  table td, table th {
+    border-width: 2px;
+    border-color: #7EA8F8;
+    border-style: solid;
+    padding: 5px;
+  }
+  
+  table thead {
+    background-color: #7EA8F8;
+  }
+  
+
+  .footer {
+text-align: center;
+    color: aliceblue;
+    margin-top: 300px;
+  }
