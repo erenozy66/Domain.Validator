@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    font-family: 'Archivo', sans-serif;
+}
+
+.title {
+
+    color: #5271EF;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.paragraph {
+    color: aliceblue;
+    text-align: center;
+}
+
+.div1 {
+    text-align: center;
+}
