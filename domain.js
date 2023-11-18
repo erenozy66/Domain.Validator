@@ -30,3 +30,6 @@ async function main() {
    }
 
 	document.getElementById('submitval').addEventListener('click', main);
+
+	
+   document.getElementById('p2').replaceWith() ;
