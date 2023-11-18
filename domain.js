@@ -22,14 +22,16 @@ async function main() {
 		}
  	}
 
-
+	
 
    const retrieve = () => {
 	let myInput = document.getElementById('domainname').value;
 	return myInput;
    }
-
+  
 	document.getElementById('submitval').addEventListener('click', main);
 
-	
-   document.getElementById('p2').replaceWith() ;
+	function myFunction(){
+	let names = document.getElementById('domainname').value;
+	document.getElementById('span2').textContent= names;
+	}
