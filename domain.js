@@ -5,7 +5,7 @@ let orginalurl = 'https://domain-checker7.p.rapidapi.com/whois?domain=';
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '0e42139164msh4a8ec9a4db9b9b3p1b59c9jsnbf29f81cfb5a',
+        'X-RapidAPI-Key': '0f849e62c3msh2a875fae96d5fb3p17908djsn9639ddcede65',
         'X-RapidAPI-Host': 'domain-checker7.p.rapidapi.com'
     }
 };
@@ -21,7 +21,6 @@ async function main() {
 			console.error(error);
 		}
  	}
-
 	
 
    const retrieve = () => {
@@ -34,4 +33,7 @@ async function main() {
 	function myFunction(){
 	let names = document.getElementById('domainname').value;
 	document.getElementById('span2').textContent= names;
+	document.getElementById("myAnchor").href = "https://www." + retrieve();
 	}
+
+	document.getElementById('submitval').addEventListener('click', main);
