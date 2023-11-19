@@ -35,3 +35,5 @@ async function main() {
 	document.getElementById('span2').textContent= names;
 	document.getElementById("myAnchor").href = "https://www." + retrieve();
 	}
+
+	document.getElementById('submitval').addEventListener('click', main);
