@@ -26,6 +26,9 @@ body {
 
 .div2 {
     text-align: center;
+    color: aliceblue;
+
+   
 }
 
 .detail {
@@ -49,20 +52,20 @@ table{
     background-color: #FFFFFF;
     border-collapse: collapse;
     border-width: 2px;
-    border-color: #7EA8F8;
+    border-color: #5271EF;
     border-style: solid;
     color: #000000;
   }
   
   table td, table th {
     border-width: 2px;
-    border-color: #7EA8F8;
+    border-color: #5271EF;
     border-style: solid;
     padding: 5px;
   }
   
   table thead {
-    background-color: #7EA8F8;
+    background-color: #5271EF;
   }
   
 
@@ -70,4 +73,21 @@ table{
 text-align: center;
     color: aliceblue;
     margin-top: 200px;
+  }
+
+  .goto {
+    margin-top: 4vh;
+    text-align: center;
+   
+    
+  }
+
+  #buttongoto{
+    background-color: #5271EF;
+    color: aliceblue;
+  }
+  
+  #span2 {
+    color: #5271EF;
+
   }
