@@ -5,7 +5,7 @@ let orginalurl = 'https://domain-checker7.p.rapidapi.com/whois?domain=';
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': 'ea222e7d08mshdb97d0dcb949165p1f8119jsn878144c8814f',
+        'X-RapidAPI-Key': 'e5d23f42aemshe8211e015253380p1596ddjsnf047d46e9423',
         'X-RapidAPI-Host': 'domain-checker7.p.rapidapi.com'
     }
 };
@@ -74,7 +74,7 @@ async function main() {
 	
 	document.getElementById("myAnchor").href = "https://www." + retrieve();
 	
-	
+	document.getElementById("myAnchor2").href = "https://www.godaddy.com/nl-be/domainsearch/find?domainToCheck="+ retrieve();
 
 
 	}
